@@ -12,3 +12,6 @@ if front_sum == back_sum:
     print("LUCKY")
 else:
     print("READY")
+
+
+# 문자열 자릿수의 절반을 이용하여 앞부분의 합과 뒷부분의 합 비교
