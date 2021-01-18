@@ -1,6 +1,7 @@
 n, m, k = map(int, input().split())
 
 count = min (n//2, m)
+
 left_g = n - 2 * count
 left_b = m - count
 left = left_g + left_b
@@ -14,3 +15,4 @@ while k > 0:
         left = 0
 
 print(count)
+

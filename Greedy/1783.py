@@ -1,5 +1,6 @@
 import math
-
+# n = 세로 칸 수
+# m = 가로 칸 수
 n, m = map(int, input().split())
 
 visit = 1
