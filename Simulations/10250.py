@@ -14,3 +14,4 @@ for i in range(T):
 
 for j in result:
     print(j)
+

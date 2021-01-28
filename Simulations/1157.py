@@ -10,6 +10,8 @@ for letter in s.upper():
     letters.append(letter)
     counts[letters.index(letter)] += 1
 
+print(counts)
+print(letters)
 if counts.count(max(counts)) > 1: print('?')
 else: print(letters[counts.index(max(counts))])
 
