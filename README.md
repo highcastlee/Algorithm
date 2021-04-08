@@ -1,5 +1,7 @@
 # Python3
 
+
+
 ###리스트 관련 함수
 >- q= deque() -> 양방향 접근 가능 </br>
 > - q.popleft() || q.appendLeft()
@@ -15,7 +17,12 @@
 > - if 'a' in list: list에 a 존재 확인
 > - if 'a' not in list: 존재 확인2
 > - set(list) list 중복 제거(객체형으로 바뀜)
+> - zip(list1, list2) : 리스트 두 종류를 연관시켜준다
 
+### 추가
+> - list(filter(lambda x: x>0, [1,-3,2,0])) : lambda는 리스트 요소에 조건 걸기
+> - from functools import reduce <br/>
+> reduce(lambda x, y: x+y, [0,1,2,3,4])  : 누적으로 함수에 적용시킴 0+1+2+3+4 = 10
 
 ###문자열 관련 함수
 > - s[::-1] -> 문자열 s를 뒤집어서 리턴
@@ -36,6 +43,8 @@
 > - 문자열.capitalize() : 첫 대문자 후 소문자
 > - 문자열.strip() : 양쪽 공백 제거
 > - 문자열.replace(a,b): 문자열 중 a를 b로 바꿈
+> - A.startswith(B) : A 문자열이 B 문자열로 시작하면 True 아니면 False
+
 
 ###math 함수
 >- math.factorial(5) # 5 팩토리얼
